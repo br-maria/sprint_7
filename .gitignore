@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- JetBrains / IntelliJ IDEA / PyCharm ---
+.idea/
+*.iml
+
+# --- Chroma / FAISS / vector DB data ---
+chroma_db/
+faiss_index*
+*.index
+
+# --- Cache folders ---
+.cache/
+logs/
+
+.ipynb_checkpoints/
+
+# --- Build artifacts ---
+dist/
+build/
+
+# --- Env files (ключи и секреты) ---
+.env
+.env.*
